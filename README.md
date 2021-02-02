@@ -1,2 +1,2 @@
 # windows-dev-env
-A collection of developer tools for Windows
+A collection of Windows developer tool recommendations with configurations and settings. 
