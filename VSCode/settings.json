@@ -1,0 +1,46 @@
+{
+    "workbench.settings.editor": "json",
+    "editor.lineNumbers": "relative",
+    "editor.accessibilitySupport": "off",
+    "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
+    "editor.fontSize": 13,
+    "workbench.settings.useSplitJSON": true,
+    "keyboard.dispatch": "keycode",
+    "zenMode.hideStatusBar": false,
+    "zenMode.hideLineNumbers": false,
+    "launch": {
+        "version": "0.2.0",
+        "configurations": [
+            {
+                "type": "node",
+                "request": "launch",
+                "name": "Mocha Tests",
+                "program": "${workspaceFolder}/node_modules/mocha/bin/_mocha",
+                "args": [
+                    "${workspaceFolder}/test/**/*.test.js"
+                ],
+                "console": "integratedTerminal",
+                "internalConsoleOptions": "neverOpen"
+            },
+            {
+                "type": "node",
+                "request": "launch",
+                "name": "Mocha Current File",
+                "program": "${workspaceFolder}/node_modules/mocha/bin/_mocha",
+                "args": [
+                    "--timeout",
+                    "999999",
+                    "--colors",
+                    "${file}"
+                ],
+                "console": "integratedTerminal",
+                "internalConsoleOptions": "neverOpen"
+            }
+        ]
+    },
+    "liveshare.presence": true,
+    "window.zoomLevel": 0,
+    "terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always"
+}
