@@ -62,3 +62,4 @@ You'll have to follow the instructions [here](https://docs.github.com/en/github/
 
 - If you need to install the chocolatey package manager, you can follow the instructions [here](https://chocolatey.org/). I personally don't need to, as my company's dev tools include this already. 😊
 - Copy the contents from `wt-settings.json` and paste it into the Windows Terminal settings file.
+- Disable all of Windows 10's built-in ads [here](https://www.howtogeek.com/269331/how-to-disable-all-of-windows-10s-built-in-advertising)
