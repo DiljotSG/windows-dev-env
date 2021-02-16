@@ -21,9 +21,9 @@ scoop install https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/downl
 
 #### Oh my Posh setup
 
-To replace the existing prompt, follow the instructions [here](https://ohmyposh.dev/docs/installation#3-replace-your-existing-prompt)
+To replace the existing prompt, follow the instructions [here](https://ohmyposh.dev/docs/installation#3-replace-your-existing-prompt).
 
-> Edit `$PROFILE` in your preferred PowerShell version and add the following line.
+> Edit `$PROFILE` in your preferred PowerShell version...
 
 Open powershell and enter the following command.
 ```
