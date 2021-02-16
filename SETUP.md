@@ -2,6 +2,14 @@
 
 ## Terminal Setup
 
+### Installing Windows Terminal
+
+Grab the Windows Terminal [here](https://www.microsoft.com/store/productId/9N0DX20HK701)
+
+### Installing Powershell 7
+
+Follow the instructions here to install [Powershell 7](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-windows?view=powershell-7.1).
+
 ### Installing Scoop
 
 Install Scoop by running the command at the following [website](https://scoop.sh/).
