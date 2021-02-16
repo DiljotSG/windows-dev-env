@@ -37,3 +37,15 @@ Paste the following into the file and save it.
 Invoke-Expression (oh-my-posh --init --shell pwsh --config "$(scoop prefix oh-my-posh)/themes/zash.omp.json")
 ```
 This will use the `zash` theme, replace that with any theme of your liking. Run `Get-PoshThemes` to see a list of availiable themes.
+
+### Install Fonts
+
+Install Font Fira code, instructions from [here](https://github.com/tonsky/FiraCode/wiki/Installing).
+```powershell
+scoop bucket add nerd-fonts
+scoop install firacode
+```
+
+### Install Powershell Git Aliases
+
+Follow the instructions from the GitHub repo [here]().
