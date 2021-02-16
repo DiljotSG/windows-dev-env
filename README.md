@@ -1,4 +1,6 @@
 # windows-dev-env
-A collection of Windows developer tool recommendations with configurations and settings. 
+An onboarding procedure for my work machine.
 
-If you happen to discover this while we're still getting it together; sorry. :D
+## Documentation
+
+- [Environment Setup](docs/SETUP.md)
