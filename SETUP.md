@@ -25,7 +25,7 @@ To replace the existing prompt, follow the instructions [here](https://ohmyposh.
 Open powershell and enter the following command.
 ```powershell
 notepad $PROFILE
-```powershell
+```
 Paste the following into the file and save it.
 ```powershell
 Invoke-Expression (oh-my-posh --init --shell pwsh --config "$(scoop prefix oh-my-posh)/themes/zash.omp.json")
