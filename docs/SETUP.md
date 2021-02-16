@@ -34,9 +34,9 @@ notepad $PROFILE
 ```
 Paste the following into the file and save it.
 ```powershell
-Invoke-Expression (oh-my-posh --init --shell pwsh --config "$(scoop prefix oh-my-posh)/themes/zash.omp.json")
+Invoke-Expression (oh-my-posh --init --shell pwsh --config "$(scoop prefix oh-my-posh)/themes/star.omp.json")
 ```
-This will use the `zash` theme, replace that with any theme of your liking. Run `Get-PoshThemes` to see a list of availiable themes.
+This will use the `star` theme, replace that with any theme of your liking. Run `Get-PoshThemes` to see a list of availiable themes.
 
 #### Install Fonts 🧾
 
