@@ -48,4 +48,8 @@ scoop install firacode
 
 ### Install Powershell Git Aliases
 
-Follow the instructions from the GitHub repo [here]().
+Follow the instructions from the GitHub repo [here](https://github.com/gluons/powershell-git-aliases).
+
+```powershell
+Install-Module git-aliases -Scope CurrentUser -AllowClobber
+```
