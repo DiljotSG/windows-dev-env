@@ -4,7 +4,7 @@
 
 ### Installing Windows Terminal
 
-Grab the Windows Terminal [here](https://www.microsoft.com/store/productId/9N0DX20HK701)
+Grab the Windows Terminal [here](https://www.microsoft.com/store/productId/9N0DX20HK701).
 
 ### Installing Powershell 7
 
@@ -36,4 +36,4 @@ Paste the following into the file and save it.
 ```powershell
 Invoke-Expression (oh-my-posh --init --shell pwsh --config "$(scoop prefix oh-my-posh)/themes/zash.omp.json")
 ```
-This is using the `zash` theme, replace that with any theme of your liking. Run `Get-PoshThemes` to see a list of availiable themes.
+This will use the `zash` theme, replace that with any theme of your liking. Run `Get-PoshThemes` to see a list of availiable themes.
