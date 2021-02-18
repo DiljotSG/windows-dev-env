@@ -64,3 +64,12 @@ You'll have to follow the instructions [here](https://docs.github.com/en/github/
 - Copy the contents from `wt-settings.json` and paste it into the Windows Terminal settings file.
 - Disable all of Windows 10's built-in ads [here](https://www.howtogeek.com/269331/how-to-disable-all-of-windows-10s-built-in-advertising).
 - Use Mac style shortcuts on Windows using the [AutoHotKey script here](https://gist.github.com/ascendbruce/677c3169259c975259045f905cd889d6).
+
+### PowerToys
+
+You can install [PowerToys](https://github.com/microsoft/PowerToys) using the following command.
+
+Requires choco.
+```powershell
+choco install powertoys
+```
