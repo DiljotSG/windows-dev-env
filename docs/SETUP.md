@@ -54,6 +54,15 @@ Follow the instructions from the GitHub repo [here](https://github.com/gluons/po
 Install-Module git-aliases -Scope CurrentUser -AllowClobber
 ```
 
+Open powershell and enter the following command.
+```powershell
+notepad $PROFILE
+```
+Paste the following into the file and save it.
+```powershell
+Import-Module git-aliases -DisableNameChecking
+```
+
 ### Setting up SSH Keys 🔑
 
 You'll have to follow the instructions [here](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
