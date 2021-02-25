@@ -40,11 +40,7 @@ This will use the `star` theme, replace that with any theme of your liking. Run 
 
 #### Install Fonts 🧾
 
-Install Font Fira code, instructions from [here](https://github.com/tonsky/FiraCode/wiki/Installing).
-```powershell
-scoop bucket add nerd-fonts
-scoop install firacode
-```
+Install one of the Nerd Fonts, downloads [here](https://www.nerdfonts.com/). I use FiraMono Nerd.
 
 ### Install PowerShell Git Aliases ✨
 
@@ -72,7 +68,6 @@ You'll have to follow the instructions [here](https://docs.github.com/en/github/
 - If you need to install the chocolatey package manager, you can follow the instructions [here](https://chocolatey.org/). I personally don't need to, as my company's dev tools include this already. 😊
 - Copy the contents from `wt-settings.json` and paste it into the Windows Terminal settings file.
 - Disable all of Windows 10's built-in ads [here](https://www.howtogeek.com/269331/how-to-disable-all-of-windows-10s-built-in-advertising).
-- Use Mac style shortcuts on Windows using the [AutoHotKey script here](https://gist.github.com/ascendbruce/677c3169259c975259045f905cd889d6).
 
 ### PowerToys
 
