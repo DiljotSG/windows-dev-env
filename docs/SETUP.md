@@ -9,6 +9,7 @@ Grab the Windows Terminal [here](https://www.microsoft.com/store/productId/9N0DX
 ### Installing PowerShell 7 🔨
 
 Follow the instructions here to install [PowerShell 7](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-windows?view=powershell-7.1).
+- Go to your Windows Terminal settings and set the PowerShell 7 shell as the default profile. Details [here](https://www.thomasmaurer.ch/2020/05/how-to-change-the-windows-terminal-default-shell-profile/).
 
 ### Installing Scoop 🥄
 
@@ -32,6 +33,8 @@ Open powershell and enter the following command.
 ```powershell
 notepad $PROFILE
 ```
+**Note**: If this gives you an error, you will likely need to create the directory structure that the `$PROFILE` variable is pointing to.
+
 Paste the following into the file and save it.
 ```powershell
 Invoke-Expression (oh-my-posh --init --shell pwsh --config "$(scoop prefix oh-my-posh)/themes/star.omp.json")
@@ -40,7 +43,7 @@ This will use the `star` theme, replace that with any theme of your liking. Run 
 
 #### Install Fonts 🧾
 
-Install one of the Nerd Fonts, downloads [here](https://www.nerdfonts.com/). I use FiraMono Nerd.
+Install one of the Nerd Fonts, downloads [here](https://www.nerdfonts.com/). I use the FiraCode Nerd font. Make sure you right click the font file and select "Install for all Users".
 
 ### Install PowerShell Git Aliases ✨
 
@@ -66,8 +69,8 @@ You'll have to follow the instructions [here](https://docs.github.com/en/github/
 ### Other
 
 - If you need to install the chocolatey package manager, you can follow the instructions [here](https://chocolatey.org/). I personally don't need to, as my company's dev tools include this already. 😊
-- Copy the contents from `wt-settings.json` and paste it into the Windows Terminal settings file.
-- Disable all of Windows 10's built-in ads [here](https://www.howtogeek.com/269331/how-to-disable-all-of-windows-10s-built-in-advertising).
+- Optional: Copy the contents from `wt-settings.json` and paste it into the Windows Terminal settings file.
+- Optional: Disable all of Windows 10's built-in ads [here](https://www.howtogeek.com/269331/how-to-disable-all-of-windows-10s-built-in-advertising).
 
 ### PowerToys
 
@@ -77,3 +80,5 @@ Requires choco.
 ```powershell
 choco install powertoys
 ```
+
+- Open PowerToys and set it to always open as an administrator. This gives you access to a bunch of functionality that should be baked into Windows. Including macOS style spotlight search!
