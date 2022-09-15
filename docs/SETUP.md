@@ -43,7 +43,10 @@ This will use the `star` theme, replace that with any theme of your liking. Run 
 
 #### Install Fonts 🧾
 
-Install one of the Nerd Fonts, downloads [here](https://www.nerdfonts.com/). I use the FiraMono Nerd font. Make sure you right click the font file and select "Install for all Users".
+Run the following command in an elevated powershell prompt. Pick the FiraCode font.
+```shell
+oh-my-posh font install
+```
 
 ### Install PowerShell Git Aliases ✨
 
