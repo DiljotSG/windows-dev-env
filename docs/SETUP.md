@@ -37,7 +37,7 @@ notepad $PROFILE
 
 Paste the following into the file and save it.
 ```powershell
-Invoke-Expression (oh-my-posh --init --shell pwsh --config "$(scoop prefix oh-my-posh)/themes/star.omp.json")
+oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/star.omp.json" | Invoke-Expression
 ```
 This will use the `star` theme, replace that with any theme of your liking. Run `Get-PoshThemes` to see a list of availiable themes.
 
